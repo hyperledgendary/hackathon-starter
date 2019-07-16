@@ -89,3 +89,4 @@ typings/
 # Compiled TypeScript files
 dist
 
+_cfg
