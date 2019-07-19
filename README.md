@@ -1,5 +1,16 @@
 # Hackathon Starter
 
+This repo contains a number of starter applications and smart contracts to help you get started quickly.
+
+## Step 0: Have a development environment
+
+You'll need a development environment; Ubuntu or CentOS are good choices; especially if you can run them in VMs.
+
+- One option is to use vagrant to setup your own VM - [use this example](https://github.com/hyperledgendary/fabric-devenv) from [@jtonline](https://twitter.com/jtonline)
+- If you have a CentOS or Ubuntu system - here some scripts that show the fastest way to get setup
+  - [Ubuntu](https://gist.github.com/mbwhite/9d0ff3c3f35e8bc9a33d32bd6899f11b)
+  - [CentOS](https://gist.github.com/mbwhite/0cc46aba41569551a214827f89895eeb)
+
 ## Step 1: Install VSCode
 
 Get the following extensions depending on your preference of langauge
@@ -45,6 +56,10 @@ Here are some suggested tutorials to start to understand what you can do.
 The VSCode extension will ONLY see Contract packages at the root of the workspace. Therefore if you wish to use one of the examples, add the folder directory to the top of the root of the workspace. (right click in the workspace and select 'Add Folder to Workspace...' and then navigate to the contract to use).
 
 When running a client application example, export the Connection Profile and Local wallet to a directory local to the application. For example a `_cfg` directory within the application. Load the Connection Profile and wallet from there into the application.
+
+It is recommended to use the VSCode extensions to start a running Fabric Infrastructure and to use that to install the contracts.
+
+In the applications there is a `_cfg` directory, the examples are setup to assume that you've exported the connection profile and wallet from VSCode to that directory.
 
 ## API References
 

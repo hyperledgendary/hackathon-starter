@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>MyJavaContract</name>
-	<comment>Project java_ created by Buildship.</comment>
+	<name>org.example.javaapp</name>
+	<comment>Project java-app created by Buildship.</comment>
 	<projects>
 	</projects>
 	<buildSpec>
