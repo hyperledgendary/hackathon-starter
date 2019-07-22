@@ -57,6 +57,10 @@ The VSCode extension will ONLY see Contract packages at the root of the workspac
 
 When running a client application example, export the Connection Profile and Local wallet to a directory local to the application. For example a `_cfg` directory within the application. Load the Connection Profile and wallet from there into the application.
 
+It is recommended to use the VSCode extensions to start a running Fabric Infrastructure and to use that to install the contracts.
+
+In the applications there is a `_cfg` directory, the examples are setup to assume that you've exported the connection profile and wallet from VSCode to that directory.
+
 ## API References
 
 - [Contract JavaDoc API Reference](https://fabric-chaincode-java.github.io/)
