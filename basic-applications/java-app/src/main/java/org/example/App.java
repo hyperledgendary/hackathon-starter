@@ -38,7 +38,7 @@ public interface App {
       System.out.println("+++ Getting network");
       Network network = gateway.getNetwork("mychannel");
       System.out.println("+++ Getting contract");
-      Contract contract = network.getContract("MyTypeScriptContract");
+      Contract contract = network.getContract("BasicContract");
 
       byte[] result = contract.evaluateTransaction("readMyAsset", "001");
       System.out.println(new String(result));
